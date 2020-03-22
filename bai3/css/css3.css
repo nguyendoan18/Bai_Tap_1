@@ -1,0 +1,36 @@
+@charset "utf-8";
+/* CSS Document */
+.boderpicture{
+	width:338px;
+	height: 210px;
+}
+
+#textlinkhead{
+	margin-top: 10px;
+	width:338px;
+}
+#textlinkhead a{
+	text-decoration: none;
+	color: black;
+	font-weight: bold;
+	font-size: 20px;
+	text-align: justify;	
+}
+#textlinkhead a:hover{
+	color: red;
+}
+p{
+	font-size: 15px;
+}
+#textdownd{
+	width:338px;
+}
+#textdownd a{
+	text-decoration:none;
+	color: black;
+	font-size: 15px;
+	font-weight: bold;
+}
+#textdownd a:hover{
+	color:red;
+}

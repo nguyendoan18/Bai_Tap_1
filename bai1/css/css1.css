@@ -1,0 +1,32 @@
+article{
+	width: 500.05px;
+	height: 491px;
+	border:1px solid red;
+	background: url(../Image/bg.png);
+}
+img{
+	border-bottom:2px solid red;
+		
+}
+a{
+	text-decoration:none;
+	font-size: 23px;
+	color: red;
+	font-weight:bold;
+	text-align: left;	
+	display:block;
+	margin-top:10px;
+	margin-left:10px;
+	margin-right:10px;
+	
+}
+
+a:hover{
+	color: red;	
+}
+p{
+	text-align: justify;
+	margin-left:10px;
+	margin-right:10px;	
+	font-size:18px;
+}
