@@ -1,0 +1,57 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	font-family:Tahoma, Geneva, sans-serif;
+}
+.borderCenter article{
+	width: 260px;
+	float:left;
+	margin-right:22px;
+}
+.borderTop{
+	width: 565px;
+	height: 188px;
+}
+.borderTop a{
+	font-weight:bold;
+	text-decoration: none;
+	text-align: justify;
+	font-size: 14px;
+	display:block;
+	margin-top: 25px;
+	text-decoration:blod;
+}
+.borderTop a:hover{
+	color:yellow;
+}
+.borderTop img{
+	width:173px;
+	height: 107px;
+	float: right;
+	margin:15px;
+	margin-top:0px;
+}
+.borderTop p{
+	width:550px;
+	text-align: justify;
+
+}
+
+
+.borderCenter{
+	width: 565px;
+	float:left;
+	margin-top:25px;
+}
+.borderCenter img{
+	width:270px;
+	height:171px;
+	padding-top:20px;
+}
+.borderCenter a{
+	display:block;
+	padding:0px;
+	padding-top:10px;
+	opacity:0.6;
+}
