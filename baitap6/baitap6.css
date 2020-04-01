@@ -1,0 +1,96 @@
+@charset "utf-8";
+/* CSS Document */
+article{
+	width: 1000px;
+	height: 200px;
+	margin-top: 20px;
+	padding-bottom: 20px;
+	border-bottom: 1px solid #cac3c3;
+}
+.khunganh{
+	width:300px;
+	height:195px;
+	float:left;
+	margin-right: 20px;
+	overflow: hidden;
+}
+.khunganh img{
+	
+	width: 300px;
+	transition: 1s;
+}
+.khunganh img:hover{
+	transform:scale(1.2);
+	transition: 1s;
+}
+.borderRight{
+	margin-top: 25px;
+}
+.borderRight a.clsTitle{
+	border-left: 1px solid red;
+	text-decoration: none;
+	color: black;
+	font-weight: bold;
+	font-size: 28px;
+}
+.borderRight a:hover{
+	color: blue;
+}
+.borderCenter{
+	margin-top: 10px;
+}
+.borderCenter a{
+	margin-top: 10px;
+	font-size:14px;
+}
+.borderBottom{
+	margin-top: 10px;
+	color: #cabebe;
+}
+.borderBottom a{
+	font-size: 20px;
+}
+
+.borderDown{
+	margin-top:25px;
+}
+.borderDown a.clsBottom{
+	text-decoration: none;
+	color: Black;
+	font-weight: bold;
+	font-size: 28px;
+}
+.borderDown a:hover{
+	color:red;
+}
+.khunganh_1{
+	width:300px;
+	height:195px;
+	float:left;
+	margin-right: 20px;
+	overflow: hidden;
+}
+.khunganh_1 img{
+	
+	width: 300px;
+	transition: 1s;
+}
+.khunganh_1 img:hover{
+	transform:scale(1.2);
+	transition: 1s;
+}
+.borderCenter_1{
+	margin-top: 10px;
+}
+.borderCenter_1 a{
+	margin-top: 10px;
+	font-size:14px;
+}
+.borderBottom_1{
+	margin-top: 10px;
+	color: #cabebe;
+}
+.borderBottom_1 a{
+	font-size: 20px;
+	color: #cabebe;
+}
