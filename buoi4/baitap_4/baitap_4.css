@@ -1,0 +1,52 @@
+body{
+	width: 400px;
+	height: 300px;
+	margin: 0px auto;
+}
+
+.clsBig{
+	position: relative;
+	width: 400px;
+	height: 300px;
+}
+.clsBig img{
+	position: absolute;
+	width: 400px;
+	height: 300px;
+	top:0px;
+	left: 0px;
+	z-index: 1;
+}
+.clsBig ul{
+	position: absolute;
+	width: 400px;
+	height: 300px;
+	top:0px;
+	left: 0px;
+	z-index: 1;
+
+	margin: 0px;
+	padding:0px;
+	text-align: center;
+	list-style: none;
+	line-height: 30px;
+    padding-top: 103px;
+}
+
+.clsBig ul li.layer2{
+	color:black;
+	font-size: 30px;
+	font-weight: bold;
+}
+.clsBig ul li.layer3{
+	color: gray;
+	font-size: 20px;
+	padding-bottom: 5px;
+}
+.clsBig ul li.layer4{
+	color: white;
+	background-color: red;
+	font-size: 20px;
+	margin-left: 140px;
+    margin-right: 145px;
+}

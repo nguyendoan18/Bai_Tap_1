@@ -1,0 +1,87 @@
+@charset "utf-8";
+/* CSS Document */
+
+.cls{
+	width: 736px;
+	height: 460px;
+}
+article{
+	width: 353px;
+	height: 460px;
+	float: left;
+	margin-right: 10px;
+}
+.clsTop{
+	position: relative;
+	width: 353px;
+	height: 203px;
+}
+.clsTop img{
+	width: 353px;
+	height: 203px;
+}
+
+.clsTop .layer1{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	z-index: 1;
+}
+.clsTop .layer2{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	z-index: 2;
+	
+	color: white;
+	background-color: #1c1c84;
+	font-size: 20px;
+	padding: 10px;
+}
+
+.clsTop .layer3{
+	position: absolute;
+	bottom: -10px;
+    left: 20px;
+	z-index: 3;
+	width: 20px;
+	height: 20px;
+	background-color: white;
+	transform: rotate(45deg);
+}
+
+
+.clsCenter{
+	position: relative;
+	width: 353px;
+	height: 50px;
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+.clsCenter img{
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+}
+
+.clsCenter .layer2{
+	position: absolute;
+	top: 12px;
+    left: 65px;
+	z-index: 2;
+	
+	color: brown;
+	font-size: 16px;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+.clsBottom a{
+	text-decoration: none;
+	font-size: 24px;
+	color: blue;
+}
+.clsBottom p{
+	font-size: 15px;
+	color: black;
+}

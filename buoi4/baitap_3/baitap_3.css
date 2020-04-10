@@ -1,0 +1,94 @@
+@charset "utf-8";
+/* CSS Document */
+.clsBig{
+	width: 700px;
+	height: 600px;
+}
+
+.clsBig .clsLeft{
+	position: relative;
+	width: 400px;
+	height: 530px;
+	float: left;
+	margin-right: 20px;
+}
+.clsBig .clsLeft img.layer1{
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+	z-index: 1;
+	
+	width: 400px;
+	height: 530px;
+	float: left;
+}
+.clsBig .clsLeft .layer2{
+	position: absolute;
+	top: 0px;
+	left:0px;
+	z-index: 2;
+	
+	width: 400px;
+	height: 530px;
+	background-image: linear-gradient(#fbf9f900,black);
+}
+
+.clsBig .clsLeft a.layer3{
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+	z-index: 3;
+	
+	text-decoration: none;
+	color: #d0cdcd;
+	font-size: 30px;
+	padding-left: 28px;
+	padding-right: 20px;
+}
+.clsBig .clsLeft a.layer3:hover{
+	color: red;
+}
+
+.clsBig .clsRight {
+	width: 700px;
+	height: 600px;
+}
+.clsBig .clsRight img{
+	width: 280px;
+	height: 175px;
+}
+
+
+.clsBig .clsRight a.clsTitle{
+	text-decoration: none;
+	display: block;
+	color: black;
+	font-size: 20px;
+	font-weight: bold;
+	padding-top: 10px;
+}
+.clsBig .clsRight p{
+	font-size: 15px;
+	color: gray;
+}
+
+.clsBig .clsRight article{
+	border-top: 1px solid #c1a3a3;
+	margin-left:420px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.clsBig .clsRight article a{
+	text-decoration: none;
+	color:black;
+	font-size: 20px;
+	font-weight: bold;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.clsBig .clsRight a:hover{
+	color: blue;
+}
+.clsBig .clsRight article a:hover{
+	color: yellow;
+}
