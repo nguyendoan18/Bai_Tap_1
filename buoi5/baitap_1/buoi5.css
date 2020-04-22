@@ -1,0 +1,75 @@
+.clsBig{
+    width: 1150px;
+    height: 375px;
+}
+.borderProduct{
+    position: relative;
+    width: 270px;
+    height: 375px;
+
+    float: left;
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+.cls .pictures{
+    width: 270px;
+    height: 285px;
+    position: relative;
+}
+.clsIcon {
+    position: absolute;
+    top: 125px;
+    left: 69px;
+    z-index: 1;
+}
+
+.clsIcon i{
+    padding: 5px;
+    font-size: 40px;
+    background-color: #b9b3b3;
+    transition: 1.5s;
+    transform: scale(0);
+    opacity: 0;
+}
+.clsIcon i:hover{
+    color: black;
+    background-color: yellow;
+}
+.ProductName{
+    width: 270px;
+    height: 30px;
+    position: relative;
+}
+.ProductName .aName{
+    position: absolute;
+    top: 10px;
+    left: 88px;
+    z-index: 1;
+    
+    text-decoration: none;
+    color:black;
+}
+.ProductName .Normal{
+    position: absolute;
+    top: 35px;
+    left: 97px;
+    z-index: 2;
+
+    text-decoration: none;
+    color:black;
+}
+.ProductName .lineThrough{
+    position: absolute;
+    top: 35px;
+    left: 140px;
+    z-index: 2;
+
+    text-decoration: line-through;
+    color:black;
+}
+
+.borderProduct:hover i{
+    opacity: 1;
+    transition: 0.5s;
+    transform: scale(1);
+}

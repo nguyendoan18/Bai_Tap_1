@@ -1,0 +1,154 @@
+.clsBig{
+	width: 1150px;
+	height:  412px;
+	float: left;
+}
+.khungsanpham{
+	width: 264px;
+	height:  412px;
+
+	float: left;
+	margin: 10px;
+}
+.anh{
+	width: 264px;
+	height: 336px;
+	position: relative;
+}
+.layer1{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	z-index: 0;
+}
+.layer2{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	z-index: 1;
+
+	opacity: 0;
+	transition: 0.5s;
+}
+.icon{
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	z-index: 2;
+
+	width: 40px;
+	background-color: #d2d2d2;
+	opacity: 0;
+	transition: 0.5s;
+}
+.icon i{
+	font-size: 25px;
+	padding: 7px;
+}
+.icon i:hover{
+	color: white;
+	background-color: orange;
+}
+
+.khungsanpham:hover .icon{
+	opacity: 1;
+	transition: 0.5s;
+}
+.khungsanpham:hover .layer2{
+	opacity: 1;
+	transition: 0.5s;
+}
+
+.tieude{
+	font-size: 14px;
+	border-bottom: 1px solid gray;
+	margin-top: 10px;
+	display: inline-block;
+}
+.tieude:hover{
+	color: red;
+	background-color: yellow;
+}
+
+.duoi{
+	margin-top: 10px;
+}
+
+.duoi .trai{
+	position: relative;
+	width: 180px;
+	height: 40px;
+	/*border: 1px solid red;*/
+	float: left;
+}
+
+.trai .lop1{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	z-index: 0;
+
+	font-size: 12px;
+	transition: 0.5s;
+}
+
+.trai .lop2{
+	position: absolute;
+	top: 20px;
+	left: 0px;
+	z-index: 1px;
+
+	font-size: 12px;
+	transition: 0.5s;	
+}
+
+.khungsanpham:hover .lop1{
+	top: -20px;
+	opacity: 0;
+	transition: 0.5s;
+}
+.khungsanpham:hover .lop2{
+	top: 0px;
+	opacity: 1;
+	transition: 0.5s;
+}
+.duoi .phai{
+	position: relative;
+	width: 70px;
+	height: 40px;
+	/*border: 1px solid red;*/
+	float: right;
+}
+
+.phai .maudo{
+	position: absolute;
+	top: 20px;
+	left: 0px;
+	
+	width: 30px;
+	height: 30px;
+	background-color: red;
+	opacity: 0;
+	transition: 0.5s;
+}
+.phai .mauxanh{
+	position: absolute;
+	top: -20px;
+	right: 0px;
+	
+	width: 30px;
+	height: 30px;
+	background-color: blue;	
+	opacity: 0;
+	transition: 0.5s;
+}
+.khungsanpham:hover .maudo{
+	top: 0px;
+	opacity: 1;
+	transition: 0.5s;
+}
+.khungsanpham:hover .mauxanh{
+	top: 0px;
+	opacity: 1;
+	transition: 0.5s;
+}
