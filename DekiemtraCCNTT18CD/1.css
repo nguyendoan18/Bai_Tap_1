@@ -1,0 +1,402 @@
+*{
+    margin:0;
+    padding: 0;
+}
+body{
+    width: 1336px;
+    height: 800px;
+    position: relative;
+    /* overflow: hidden;  */
+}
+
+.P{
+	width: 300px;
+	height: 50px;
+	border-radius: 50px;
+	background-color: green;
+	position: absolute;
+	top: 400px;
+	left: 50%;
+	z-index: 2;
+	margin-left: -200px;
+	transform: scale(0);
+	animation-name: TheP;
+	animation-duration: 4s;
+}
+.P p{
+	font-size: 20px;
+	font-weight: bold;
+	text-align: center;
+	padding-top: 10px;
+}
+@keyframes TheP{
+	20%{
+		transform: scale(1);
+		margin-left: -200px;
+		top: 400px;
+	}
+	40%{
+		margin-left: -200px;
+		top: 1px;
+		transform: scale(1);
+		background-color: yellow;
+	}
+	60%{
+		transform: scale(1);
+		margin-left: 480px;
+		top: 1px;
+		background-color: orange;
+	}
+	80%{
+		transform: scale(1);
+		margin-left: -767px;
+		top: 1px;
+		background-color: orange;
+	}
+	100%{
+		transform: scale(0);
+		margin-left: -200px;
+		top: 1px;
+		background-color: orange;
+	}
+}
+
+
+/* Khung menu */
+.layer1{
+    background-color: #f7f5f5;
+    position: absolute;
+    width:1336px;
+    height: 44px;
+    top: 300px;
+    left: 340px;
+    z-index: 3;
+    transform: scale(0);
+    animation-name: layer;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+    animation-delay: 2.2s; 
+}
+ul{
+    list-style: none;
+}
+.layer1 > ul > li{
+    float: left;
+    color: red;   
+}
+
+@keyframes layer{
+    0%{
+        transform: scale(1);
+        top: 300px;
+        left: 340px;
+    }
+    50%{
+        transform: scale(1);
+        top: 0;
+        left: 340px;
+    }
+    60%{
+        transform: scale(1);
+        top: 0;
+        left: 800px;
+        background-color: #f7f5f5;
+    }
+    80%{
+        transform: scale(1);
+        top: 0;
+        left: 0px;
+    }
+    100%{
+        transform: scale(1);
+        top: 0;
+        left: 0px;
+        z-index: 0;
+        background-color: #bbb1b1;
+    }
+}
+.layer1 > ul > li a{
+    display: block;
+    background-color: #bbb1b1;
+    color: rgb(109, 107, 207);
+    font-size: 20px;
+    border-right: 1px solid white;
+    padding: 10px 20px;
+}
+.layer1 > ul > li:hover a{
+    background-color: gray;
+    color: White;
+    display: block;
+    border-bottom:  2px solid red;
+}
+.layer1 > ul > li > a:hover{
+    color: blue;
+}  
+
+/* Khung lon  */
+
+.khunglon{
+    width: 1100px;
+    height: 550px;
+    margin-top: 100px;
+    margin-left: 150px;
+    border: 1px solid red;
+    position: absolute;
+    padding: 10px 10px;
+    float: left;
+}
+
+/* Trái */
+.khunglon .trai{
+    width: 600px;
+    Height: 552px;
+    margin-right: 31px;
+    background-color: #fff5f7;
+    float: left;
+    transition: 1s;
+    /* box-shadow: 0px 14px 5px -9px grey; */
+    /* border:  1px solid red; */
+}
+.trai .traitrai{
+    width: 300px;
+    Height: 480px;
+    margin-left: -81px;
+    background-color: #fff5f7;
+    float: left;
+    transition: 1s;
+    /* box-shadow: 0px 14px 5px -9px grey; */
+    /* border:  1px solid red; */
+}
+.khunglon .trai .traitrai div{
+    width: 260px;
+    height: 210px;
+    
+    margin-top: 20px;
+    margin-left: 20px;
+    overflow: hidden;
+}
+.khunglon .trai .traitrai > div > img{
+    width: 260px;
+    height: 210px;
+}
+.khunglon .trai .traitrai > div > img:hover{
+    width: 280px;
+    height: 220px;
+    transform: scale(1.2);
+    transition: 1s;
+}
+
+.khunglon > .trai > ul > li{
+    float: left;
+    margin-bottom: 10px;
+}
+.khunglon > .trai > ul > li.li1{
+    border-bottom: 2px solid red;
+}
+.khunglon > .trai > ul > li a{
+    color: rgb(109, 107, 207);
+    font-size: 17px;
+    display: block;
+    padding: 10px 8px;     
+}
+.khunglon > .trai > ul > li:hover a{
+    display: block;
+    color: blue;
+    font-weight: bold;
+}
+.khunglon > .trai > ul > li > a{
+    color: blue;
+    text-decoration: none;
+}
+.khunglon > .trai > .traitrai > article > a{
+    font-size: 17x;
+    color: rgb(109, 107, 207);
+    text-decoration: none;
+    font-weight: bold;
+    padding: 5px 10px;
+}
+.khunglon > .trai > .traiphai > article > a{
+    font-size: 17x;
+    color: rgb(109, 107, 207);
+    text-decoration: none;
+    font-weight: bold;
+    padding: 5px 10px;
+}
+.khunglon > .trai > .traitrai > article > a:hover{
+    color: red;
+    font-weight: bold;
+}
+.khunglon > .trai > .traitrai > article > p{
+    font-size: 15px;
+    text-align:  justify;
+    padding: 5px 10px;
+}
+.khunglon > .trai > .traitrai > article > ul{
+    list-style: none;
+   
+}
+.khunglon > .trai > .traitrai > article{
+    width: 285px;
+    height: 130px;
+    margin-left: 7px;
+    border-bottom: 1px solid red;
+    margin-bottom: 5px;
+}
+.khunglon > .trai > .traitrai > article > ul > li{
+   float: left;
+   margin-top: 5px;
+   margin-right: 8px;
+   margin-left: 10px;
+}
+.khunglon > .trai > .traitrai > ul > li > a{
+    color: gray;
+}
+.khunglon > .trai > .traitrai > article > .cls{
+    margin-top: -5px;
+}
+.khunglon > .trai > .traitrai > article > .cls > li a.so{
+    padding-left: 0px;
+    margin-left: -15px;
+}
+.khunglon > .trai > .traitrai > article > .cls > li a{
+    text-decoration:  none;
+    font-size: 15px;
+    color: gray;
+}
+.khunglon > .trai > .traitrai > ul > li.li1{
+    border-bottom: 2px solid red;
+}
+.khunglon > .trai > .traitrai > ul > li a{
+    color: rgb(109, 107, 207);
+    font-size: 13px;
+    display: block;
+    padding: 10px 8px;     
+}
+.khunglon > .trai > .traitrai > .cuoi{
+    width: 285px;
+    height: 130px;
+    margin-left: 7px;
+    border-bottom: 1px solid white;
+    margin-bottom: 5px;
+}
+/* Khung phai */
+.trai .traiphai{
+    width: 250px;
+    Height: 500px;
+    margin-right: 31px;
+    background-color: #fff5f7;
+    float: left;
+    transition: 1s;
+    /* box-shadow: 0px 14px 5px -9px grey; */
+    /* border:  1px solid red; */
+}
+
+.khunglon > .trai > ul > li{
+    float: left;
+    margin-bottom: 10px;
+}
+.khunglon > .trai > ul > li.li1{
+    border-bottom: 2px solid red;
+}
+.khunglon > .trai > ul > li a{
+    color: rgb(109, 107, 207);
+    font-size: 17px;
+    display: block;
+    padding: 10px 8px;     
+}
+.khunglon > .trai > ul > li:hover a{
+    display: block;
+    color: blue;
+    font-weight: bold;
+}
+.khunglon > .trai > ul > li > a{
+    color: blue;
+    text-decoration: none;
+}
+.khunglon > .trai > .traitrai > article > a{
+    font-size: 17x;
+    color: rgb(109, 107, 207);
+    text-decoration: none;
+    font-weight: bold;
+    padding: 5px 10px;
+}
+.khunglon > .trai > .traiphai > article > a:hover{
+    color: red;
+    font-weight: bold;
+}
+.khunglon > .trai > .traiphai > article > p{
+    font-size: 15px;
+    text-align:  justify;
+    padding: 5px 10px;
+}
+.khunglon > .trai > .traiphai > article > ul{
+    list-style: none;
+   
+}
+.khunglon > .trai > .traiphai > article{
+    width: 285px;
+    height: 130px;
+    margin-left: 7px;
+    border-bottom: 1px solid red;
+    margin-bottom: 5px;
+}
+.khunglon > .trai > .traiphai > article > ul > li{
+   float: left;
+   margin-top: 5px;
+   margin-right: 8px;
+   margin-left: 10px;
+}
+.khunglon > .trai > .traiphai > ul > li > a{
+    color: gray;
+}
+.khunglon > .trai > .traiphai > article > .cls{
+    margin-top: -5px;
+}
+.khunglon > .trai > .traiphai > article > .cls > li a.so{
+    padding-left: 0px;
+    margin-left: -15px;
+}
+.khunglon > .trai > .traiphai > article > .cls > li a{
+    text-decoration:  none;
+    font-size: 15px;
+    color: gray;
+}
+.khunglon > .trai > .traiphai > ul > li.li1{
+    border-bottom: 2px solid red;
+}
+.khunglon > .trai > .traiphai > ul > li a{
+    color: rgb(109, 107, 207);
+    font-size: 13px;
+    display: block;
+    padding: 10px 8px;     
+}
+
+
+.trai:hover{
+    box-shadow: 6px 7px 30px 0px grey;
+    transform: scale(1.2);
+    transition: 1s;
+}
+/* div bên phải */
+.khunglon .phai{
+    width: 436px;
+    Height: 450px;
+    margin-left: 32px;
+    background-color: #fff5f7;
+    float: left;
+    transition: 1s;
+    /* box-shadow: 0px 14px 5px -9px grey; */
+    /* border:  1px solid red; */
+}
+.phai .tren{
+    width: 436px;
+    Height: 200px;
+    margin-top: 20px;
+}
+
+#aniimated-thumbnials img{
+    margin: 0px 2px;
+    width: 125px;
+    height: 100px;
+    float: left;
+}
