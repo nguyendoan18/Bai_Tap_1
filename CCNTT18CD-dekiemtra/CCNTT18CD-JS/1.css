@@ -1,0 +1,166 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    position: fixed;
+}
+.logo{
+    width: 1366px;
+    height: 100px;
+    background-color: white;
+}
+.logo img{
+    width: 250px;
+    height: 150px;
+    float: left;
+    margin-left: 50px;
+}
+.logo h1{
+    padding-top: 32px;
+    padding-left:  420px;
+}
+.hieuung{
+    width: 1366px;
+    height: 100px;
+    font-size: 18px;
+    position: fixed;
+    z-index: 1;
+    background-color: white;
+    transition: 0.5s;
+}
+
+/* Tìm kiếm */
+.menu{
+    position: fixed;
+    width: 1366px;
+    height: 63px;
+    background-color: green;
+    top: 150px;
+    left: 0px;
+    transition: 0.5s;
+}
+.menu ul{
+    list-style: none;
+}
+.menu ul li{
+    float: left;
+    padding: 20px 30px;
+    /* background-color: green; */
+}
+/* .menu ul li:hover{
+    background-color: greenyellow;
+    color: lemonchiffon;
+} */
+.menu ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px 20px;
+}
+
+li.cha{
+    position: relative;
+}
+li button{
+    top: 10px;
+    font-size: 16.5px;
+    margin-top: -11px;
+    width: 100px;
+    height: 45px;
+    border: none;
+    outline: none;
+    background-color: green;
+    color: white;
+    font-weight: bold;
+    position: relative;
+    z-index: 1;
+}
+.khung{
+    position: absolute;
+    top: 150px;
+    left: 30;
+    z-index: 1;
+    width: 400px;
+    /* opacity: 0; */
+}
+
+.hieuunginput{
+    
+}
+.khung .input{
+    position: absolute;
+    width: 250px;
+    padding-left: 20px;
+    height: 40px;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    top: -142px;
+    left: 100px;
+    z-index: 2;
+}
+.hieuung{
+    position: absolute;
+    width: 0;
+    height: 0;
+    top: -142px;
+}
+/* Nội dung */
+.khunglon{
+    width: 1366px;
+    top: 400px;
+}
+.khunglon .trai{
+    width: 910px;
+    /* border: 1px solid red; */
+    float: left;
+}
+.khunglon .phai{
+    width: 400px;
+    /* border: 1px solid black; */
+    height: 400px;
+    float: right;
+}
+.khunglon .trai .noidung a{
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 30px;
+    color: black;
+    margin: 0;
+    padding: 0;
+    padding-left: 50px;
+}
+.khunglon .trai .noidung p{
+    font-size: 25px;
+    text-align: justify;
+    padding-left: 50px;
+}
+
+.khunglon .phai img{
+    width: 400px;
+    height: 250px;
+    margin-bottom: 40px;
+}
+
+.diemcong{
+    position: fixed;
+    top: 250px;
+    left: -340px;
+    width: 300px;
+    height: 250px;
+    background-color: #37b137;
+    padding: 30px 30px;
+}
+.diemcong > a{
+    font-size: 30px;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+.diemcong > p{
+    font-size: 25px;
+    color: white;
+    margin-top: 20px;
+}
